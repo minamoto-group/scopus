@@ -1,6 +1,6 @@
 # What scopus.py does
 
-I developed this script, scopus.py, to update scopus scores of my 100+ colleagues in the department regularly. The script has several functionality which includes 
+I developed this script, scopus.py, to update scopus scores of my 100+ colleagues in the department regularly. The script has several functionalities which include 
 
 1. searching authors by name or author ID
 2. adding author(s) information to the list (see below)
@@ -30,7 +30,7 @@ The list in which authors' scopus scores are contained is located (once it is cr
 16. up_date
 17. Comment\*
 
-You may want to enter the author's information for the optional items with "\*" for the first time of adding the author. Values for other items are automatically obtained and computed from Scopus.
+You may want to enter the author's information for the optional items denoted with "\*" for the first time of adding the author. Values for other items are automatically obtained and computed from Scopus.
 
 The items "Group" and "Group (basic)" are largely related to my affiliation so users should remove or modify for their purpose.
 
@@ -53,7 +53,7 @@ and enter your API key to configure. This is required for the first time.
 Here is how I was usually using this script.
 
 ## 1. Search an author
-Let say you want to find my scopus scopus score. Perhaps, you do not know my author ID. So you can enter my first and last names, and now you see authors with the matched name. Based on their affiliations, you can see that the first row is me, and my author ID is: *54881747200.
+Let say you want to find my scopus scopus score. Perhaps, you do not know my author ID. So you can enter my first and last names, and now you see authors with the matched name. Based on their affiliations, you can see that the first row is me, and my author ID is: 54881747200.
 ```
 $python3 scopus.py s
 ------------------------------------------------------

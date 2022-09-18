@@ -67,7 +67,7 @@ Enter last name: Minamoto
 ```
 
 ## 2. Add an author
-One you find an author ID of interest, you can add the author to the list (authors.xlsx). To do so,
+One you find an author ID of interest (let's say it is mine, 54881747200, obtained above), you can add the author to the list (authors.xlsx). To do so,
 ```
 $ python3 scopus.py a
 Enter Author ID: 54881747200

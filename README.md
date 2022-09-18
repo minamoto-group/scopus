@@ -75,7 +75,7 @@ Enter Author ID: 54881747200
 You may manually enter values for the optional items with '\*' as mentioned above. 
 
 ## 3. Update an author's information
-To update the information of an author with the author ID, do something like:
+To update the information of an author in the list with the author ID, do something like:
 ```
 $ python3 scopus.py u
 Enter Author ID: 54881747200
